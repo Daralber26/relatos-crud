@@ -28,6 +28,7 @@ function renderizarListaHistorias() {
       <p>${h.sinopsis}</p>
       <button class="btn-leer" data-id="${h.id}">Leer</button>
       <button class="btn-editar" data-id="${h.id}">Editar</button>
+      <button class="btn-eliminar" data-id="${h.id}">Eliminar</button>
     </article>
   `).join('');
 
@@ -42,6 +43,13 @@ function renderizarListaHistorias() {
     btn.addEventListener('click', () => {
       const id = Number(btn.dataset.id);
       abrirEdicion(id);
+    });
+  });
+
+  document.querySelectorAll('.btn-eliminar').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = Number(btn.dataset.id);
+      eliminarHistoria(id);
     });
   });
 }
