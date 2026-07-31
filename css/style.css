@@ -25,3 +25,11 @@ main {
   margin: 2rem auto;
   padding: 0 1rem;
 }
+
+.tarjeta-historia {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
