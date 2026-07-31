@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatos</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Relatos</h1>
+    <p>Historias cortas, guardadas donde quieras leerlas</p>
+  </header>
+
+  <main id="app">
+    <!-- cada feature agregará su sección aquí -->
+  </main>
+
+  <script src="js/storage.js"></script>
+  <script src="js/create.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
