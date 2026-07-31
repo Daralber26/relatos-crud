@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, serif;
+  background: #faf7f2;
+  color: #2c2c2c;
+  line-height: 1.6;
+}
+
+header {
+  background: #3b2f2f;
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.3rem;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
