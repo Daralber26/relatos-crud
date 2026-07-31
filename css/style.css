@@ -46,3 +46,11 @@ main {
   margin-bottom: 1rem;
   cursor: pointer;
 }
+
+#form-editar-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
