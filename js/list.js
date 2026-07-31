@@ -26,6 +26,14 @@ function renderizarListaHistorias() {
       <h3>${h.titulo}</h3>
       <p><strong>Autor:</strong> ${h.autor} | <strong>Género:</strong> ${h.genero} | <strong>Fecha:</strong> ${h.fecha}</p>
       <p>${h.sinopsis}</p>
+      <button class="btn-leer" data-id="${h.id}">Leer</button>
     </article>
   `).join('');
+
+  document.querySelectorAll('.btn-leer').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const id = Number(btn.dataset.id);
+      abrirHistoria(id);
+    });
+  });
 }
